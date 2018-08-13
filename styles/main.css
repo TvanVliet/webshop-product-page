@@ -4,12 +4,10 @@
 }
 
 body {
-  background-color: lightgray;
   font-family: nintendoFont;
 }
 
 header {
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +31,11 @@ header {
   
   header a:hover {
     text-decoration: underline;
+  }
+
+  .product-card {
+    height: 50%;
+    width: 50%;
+    border: 3px solid #fe0016;
+    margin: 0 auto;
   }
