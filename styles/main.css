@@ -1,0 +1,36 @@
+@font-face {
+  font-family: nintendoFont;
+  src: url(../assets/fonts/Nintend\ Bold.otf);
+}
+
+body {
+  background-color: lightgray;
+  font-family: nintendoFont;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 25px;
+  }
+  
+  header img {
+    height: 100%;
+  }
+  
+  header a {
+    margin-left: 50px;
+    margin-top: 25px;
+    color: #fe0016;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
