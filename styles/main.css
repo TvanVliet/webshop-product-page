@@ -16,12 +16,13 @@ header {
     padding-right: 3%;
     font-size: 25px;
   }
-  
-  header img {
-    height: 100%;
+
+  header a img {
+    height: 100px;
+    margin: 0;
   }
   
-  header a {
+  header nav a {
     margin-left: 50px;
     margin-top: 25px;
     color: #fe0016;
@@ -34,8 +35,49 @@ header {
   }
 
   .product-card {
-    height: 50%;
+    min-height: 400px;
+    min-width: 350px;
     width: 50%;
     border: 3px solid #fe0016;
+    border-radius: 25px;
     margin: 0 auto;
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+    width: 345px;
+    margin: 0 auto;
+    padding: 1%;
+  }
+
+
+    #thumbnail-id ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+
+    #thumbnail-id li {
+      padding: 2%;
+    }
+
+  .image-container {
+    width: 500px;
+    height: 500px;
+  }
+
+  #mainproductimage {
+    display: block;
+    padding: 3%;
+    min-width: 200px;
+    max-width: 345px;
+    height: auto;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+
+  .thumbnail-image {
+    width: auto;
+    max-height: 50px;
+    padding: 1%;
   }

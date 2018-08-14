@@ -9,7 +9,9 @@
 
 <body>
     <header>
-        <img src="assets/images/Nintendo-logo-red.png" />
+        <a href="#">
+            <img src="assets/images/Nintendo-logo-red.png" />
+        </a>
         <nav>
             <a href="#">Products</a>
             <a href="#">Shopping Cart</a>
@@ -17,10 +19,36 @@
     </header>
 
     <div class="product-card">
-        <div class="product-title">
-            <p>Super Mario</p>
+        <div class="product-head">
+            <p class="product-title">Super Mario Odyssey</p>
+            <div class="image-container">
+                <img id="mainproductimage" src="assets/images/super-mario-odyssey-box.jpg" alt="super-mario">
+            </div>
+            <div class="thumbnails-row">
+                <div id="thumbnail-id" onclick="changeImageOnClick(event)">
+                    <ul>
+                        <li>
+                            <img class="thumbnail-image" src="assets/images/super-mario-odyssey-box.jpg" />
+                        </li>
+                        <li>
+                            <img class="thumbnail-image" src="assets/images/super-mario-odyssey-picture1.jpg" />
+                        </li>
+                        <li>
+                            <img class="thumbnail-image" src="assets/images/super-mario-odyssey-picture2.jpg" />
+                        </li>
+                        <li>
+                            <img class="thumbnail-image" src="assets/images/super-mario-odyssey-picture3.jpg" />
+                        </li>
+                        <li>
+                            <img class="thumbnail-image" src="assets/images/super-mario-odyssey-picture4.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
